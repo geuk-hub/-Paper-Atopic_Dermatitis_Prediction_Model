@@ -1,6 +1,4 @@
-# Prediction Model for Atopic Dermatitis Incidence Rate Using Air Pollutants and Meteorological Factor
-
-## 대기오염물질과 기상요인을 이용한 아토피피부염 발병률 예측모델
+### 대기오염물질과 기상요인을 이용한 아토피피부염 발병률 예측모델
 
 사용 데이터
 - 아토피피부염 의료이용 데이터 : 국민건강보험공단
