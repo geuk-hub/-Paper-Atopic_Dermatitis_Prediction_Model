@@ -66,7 +66,6 @@ for (i in 1:length(Meteorological[,1])){
   }
 }
 
-
 Atopic$DT <- substr(Atopic$DT, 1,4)
 Atopic <- na.omit(Atopic)
 rownames(Atopic) <- 1:length(Atopic[,1])
@@ -111,6 +110,7 @@ cor(data_2016[,c(2:length(data_2016))])
 data_2017 <- data[which(data[,'Date'] == '2017-01-01'):which(data[,'Date'] == '2017-12-01'),]
 cor(data_2017[,c(2:length(data_2017))])
 
+
 # 지역별 상관관계 분석.
 
 Atopic <- read.csv(paste0(src_A_dir, "/49_month.csv"))
@@ -132,7 +132,7 @@ cor(data[,c(2:12,14)])
 data <- data[which(data[,'Date'] == '2015-01-01'):which(data[,'Date'] == '2017-12-01'),]
 cor(data[,c(2:length(data))])
 
-# 세종특별자치시
+# 세종특별자치시.
 
 Atopic <- read.csv(paste0(src_A_dir, "/36_month.csv"))
 Meteorological <- read.csv(paste0(src_M_dir, "/36_month.csv"))
