@@ -35,5 +35,3 @@ for (i in (1:length(area_code))){
   setwd("C:/Users/dss/Desktop/Paper/Atopic Data")
   write.csv(month_data, paste0(area_code[i], "_month.csv"), row.names = FALSE)
 }
-
-sum(unique(data$P_CNT))/5
