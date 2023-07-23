@@ -17,5 +17,20 @@
 - 전체 아토피피부염 발병률 예측모델(전국단위,지역단위)
 - 성별 및 연령대별 아토피피부염 발병률 예측모델(전국단위,지역단위)
 
-
-![image](https://github.com/geuk-hub/Paper/assets/75317346/eeb75ebc-190e-433d-8d63-a9dacf4696ea)
+	Regression	ANN
+	In-sample	Adjusted	Out-of-sample	Train	Valid	Test
+Average	NW model	0.7939	0.7382	0.6977	0.7515	0.8628	0.8363
+	AD model
+without area variable	0.4220	0.4144	0.2916	0.8394	0.8124	0.7941
+	AD model
+with area variable	0.8913	0.8876	0.8865	0.9192	0.9062	0.9032
+Gender & age under 10 years old	NW model	0.9164	0.9127	0.9008	0.9739	0.9518	0.9471
+	AD model
+without area variable	0.5709	0.5698	0.5688	0.8908	0.8221	0.7910
+	AD model
+with area variable	0.8371	0.8359	0.8303	0.9366	0.9272	0.9226
+Gender & age over 10 years old	NW model	0.9092	0.9070	0.8854	0.9854	0.9745	0.9645
+	AD model
+without area variable	0.6772	0.6768	0.6795	0.7779	0.7632	0.7663
+	AD model
+with area variable	0.8035	0.8031	0.8001	0.9302	0.9305	0.9158
