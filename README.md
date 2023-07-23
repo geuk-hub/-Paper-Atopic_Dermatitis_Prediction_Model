@@ -17,4 +17,5 @@
 - 전체 아토피피부염 발병률 예측모델(전국단위,지역단위)
 - 성별 및 연령대별 아토피피부염 발병률 예측모델(전국단위,지역단위)
 
+
 ![image](https://github.com/geuk-hub/Paper/assets/75317346/6fb5567f-0abd-4a32-aabf-9bc8ae4b7362)
